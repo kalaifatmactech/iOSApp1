@@ -12,6 +12,7 @@
 		C89B94861FD514A500333F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89B94841FD514A500333F52 /* Main.storyboard */; };
 		C89B94881FD514A500333F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89B94871FD514A500333F52 /* Assets.xcassets */; };
 		C89B948B1FD514A500333F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89B94891FD514A500333F52 /* LaunchScreen.storyboard */; };
+		C89B94931FD5257300333F52 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89B94921FD5257300333F52 /* ViewController1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C89B94871FD514A500333F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C89B948A1FD514A500333F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C89B948C1FD514A500333F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89B94921FD5257300333F52 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C89B94741FD514A500333F52 = {
 			isa = PBXGroup;
 			children = (
+				C89B94921FD5257300333F52 /* ViewController1.swift */,
 				C89B947F1FD514A500333F52 /* Github1 */,
 				C89B947E1FD514A500333F52 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89B94931FD5257300333F52 /* ViewController1.swift in Sources */,
 				C89B94831FD514A500333F52 /* ViewController.swift in Sources */,
 				C89B94811FD514A500333F52 /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4G826C57UP;
 				INFOPLIST_FILE = Github1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fmt.Github1;
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4G826C57UP;
 				INFOPLIST_FILE = Github1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fmt.Github1;
